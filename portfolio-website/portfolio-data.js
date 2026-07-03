@@ -30,20 +30,20 @@ window.PORTFOLIO_DATA = {
       date: "08/2025 – 11/2025",
 
       // SỬA: Tên công ty / tổ chức
-      company: "CANG LÊ – STRATEGY DIRECTOR AT DEKOHAUS CREATIVE",
+      company: "Former Head of Marketing at Daikin Vietnam",
 
       // SỬA: Vị trí / vai trò
       role: "Marketing Assistant",
 
       // SỬA: Tên dự án / chương trình
-      project: "Branding & Strategic Marketing Training Programs",
+      project: "\"Làm Bạn Với Insight\" Course",
 
       // SỬA: Mô tả ngắn gọn (nếu cần hiển thị ngoài card)
       shortCardText: "Hỗ trợ phát triển nội dung đào tạo thương hiệu chiến dịch IMC đạt 40K+ lượt xem.",
 
       // SỬA: Nội dung gạch đầu dòng dài trong popup chi tiết (responsibilities)
       responsibilities: [
-        "Planned and created 3–4 weekly educational posts for Threads (@cunonmarketing), turning marketing case studies into content on Brand Strategy, IMC, Consumer Behavior, and Marketing Insights, contributing to posts with 200K+ views.",
+        "Planned and created 3–4 weekly educational posts for Threads (@cunonmarketing), turning marketing case studies into content.",
         "Repurposed content across social platforms while supporting page operations and community engagement to maximize content reach.",
         "Prepared training materials, reports, and schedules while coordinating the delivery of the \"Làm Bạn Với Insight\" branding course."
       ],
@@ -51,13 +51,15 @@ window.PORTFOLIO_DATA = {
       // SỬA: Các thẻ tag kỹ năng (tags)
       tags: ["Content Planning", "Case Study Analysis", "Project Coordination"],
 
-      // SỬA: Ảnh minh chứng (2 ảnh, đặt ảnh của bạn trong assets/images/ rồi sửa đường dẫn ở đây)
+      // SỬA: Ảnh minh chứng (4 ảnh)
       proofImages: [
-        "assets/1.png",
-        "assets/Screenshot 2026-07-02 113432.png"
+        "assets/cunon-card.png", // Replace Card Preview Image
+        "assets/cunon-modal-1.png", // Replace Gallery Image 1
+        "assets/cunon-modal-2.png", // Replace Gallery Image 2
+        "assets/cunon-modal-3.png" // Replace Gallery Image 3
       ],
 
-      // SỬA: Link minh chứng / chiến dịch / bài đăng thực tế
+      // SỬA: link minh chứng
       proofLinkHref: "https://www.instagram.com/cunonmarketing/",
 
       // SỬA: Nhãn chữ hiển thị trên nút liên kết của popup
@@ -67,41 +69,51 @@ window.PORTFOLIO_DATA = {
       id: "margroup-similac",
       date: "05/2024 – 09/2024",
       company: "MARGROUP × SMAG",
-      role: "Marketing Campaign Coordinator",
-      project: "Similac Parent Community Campaign",
+      role: "Campaign Coordinator",
+      project: "MINIGAME \"Đề Kháng Vững Vàng, Ngàn Cơ Hội Phiêu Lưu\" SIMILAC",
       shortCardText: "Vận hành chiến dịch Minigame và tối ưu hóa lượt tiếp cận cộng đồng cha mẹ.",
       responsibilities: [
-        "Supported end-to-end execution of Similac's social media minigame, coordinating daily campaign operations and participant management.",
-        "Researched and shortlisted 90+ Facebook parenting communities to optimize organic reach among parents with young children.",
-        "Verified 610+ participant submissions, ensuring transparent winner selection and smooth post-campaign fulfillment.",
-        "Monitored campaign performance and maintained real-time tracking reports, contributing to 15M+ total views and 952 participant interactions."
+        "Supported end-to-end execution of Similac's social media minigame, managing participant operations and campaign coordination.",
+        "Researched parenting communities, verified participant submissions, and maintained campaign tracking throughout campaign execution.",
+        "Monitored campaign progress while supporting winner verification and post-campaign fulfillment."
       ],
       tags: ["CAMPAIGN OPERATIONS", "ORGANIC REACH", "TRACKING REPORTS"],
+      
+      // SỬA: Ảnh minh chứng (4 ảnh)
       proofImages: [
-        "assets/Screenshot 2026-06-25 165848.png",
-        "assets/Screenshot 2026-06-26 013450.png"
+        "assets/similac-card.png", // Replace Card Preview Image
+        "assets/similac-modal-1.png", // Replace Gallery Image 1
+        "assets/similac-modal-2.png", // Replace Gallery Image 2
+        "assets/similac-modal-3.png"  // Replace Gallery Image 3
       ],
+
+      // Replace Proof Link
       proofLinkHref: "https://www.facebook.com/share/v/18ut7QNLMM/",
       proofLinkLabel: "LINK"
     },
     {
       id: "margroup-sting",
-      date: "10/2024 – 12/2024",
+      date: "03/2024 – 06/2024",
       company: "MARGROUP × SMAG",
       role: "Account Executive",
-      project: "STING × HIEUTHUHAI Seeding",
+      project: "STING × HIEUTHUHAI:\n\"DIỆN MẠO MỚI – BẬT NĂNG LƯỢNG, TẠO DẤU ẤN\"",
       shortCardText: "Hỗ trợ quản lý vận hành hoạt động Seeding và KOLs cho chiến dịch Sting tại trường học.",
       responsibilities: [
-        "Coordinated account operations for the STING campus campaign, serving as the liaison between internal teams and student ambassadors to ensure smooth campaign execution.",
-        "Recruited 30+ student KOLs and managed a 100-member seeding network, overseeing onboarding, communication, and execution.",
-        "Managed campaign trackers, booking files, and a VND 7M+ seeding budget, ensuring accurate documentation and timely execution.",
-        "Coordinated campaign logistics and payment processes, contributing to social content that generated 27.3K+ reactions and 170+ shares."
+        "Coordinated account operations for the STING campus campaign, acting as the liaison between internal teams and student ambassadors.",
+        "Recruited and managed student KOLs and a large seeding network, overseeing onboarding and campaign execution.",
+        "Maintained campaign trackers, booking files, budget tracking, payment coordination, and reporting throughout the campaign."
       ],
-      tags: ["Campaign Coordination", "Stakeholder Management", "Project Management"],
+      tags: ["SEEDING COORDINATION", "KOL MANAGEMENT", "CAMPAIGN OPERATIONS"],
+      
+      // SỬA: Ảnh minh chứng (4 ảnh)
       proofImages: [
-        "assets/Screenshot 2026-07-02 114816.png",
-        "assets/Screenshot 2026-07-02 114859.png"
+        "assets/sting-card.png", // Replace Card Preview Image
+        "assets/sting-modal-1.png", // Replace Gallery Image 1
+        "assets/sting-modal-2.png", // Replace Gallery Image 2
+        "assets/sting-modal-3.png"  // Replace Gallery Image 3
       ],
+
+      // Replace Proof Link
       proofLinkHref: "https://www.facebook.com/share/v/1M4YzWJH2j/",
       proofLinkLabel: "LINK"
     }
@@ -139,23 +151,29 @@ window.PORTFOLIO_DATA = {
       whatIDid: "Led the student marketing team, mapped out parent personas, planned strategic content touchpoints, optimized email conversion triggers, and conducted full UX/UI audits.",
 
       // SỬA: skill tags
-      skills: ["SEO Strategy", "Email Automation", "UI/UX Audit"],
+      skills: ["Digital Marketing", "SEO Content", "Email Marketing", "AI Chatbot"],
 
       // SỬA: số liệu / kết quả (nếu có)
       metrics: [
-        { value: "1.3K+", label: "Visits / Day", theme: "lime" },
-        { value: "+45%", label: "Conversion", theme: "purple" },
-        { value: "130%+", label: "KPI Achieved", theme: "white" }
+        { value: "1,326", label: "Website Visits", theme: "lime" },
+        { value: "822", label: "Blog Views", theme: "purple" },
+        { value: "105", label: "Qualified Leads", theme: "white" },
+        { value: "130%+", label: "KPI Achievement", theme: "lime" }
       ],
 
-      // SỬA: đường dẫn ảnh minh chứng (đã cập nhật ảnh PNG thật của bạn)
+      // SỬA: đường dẫn ảnh minh chứng
       proofImages: [
-        "assets/readynest-1.png", // ReadyNest website/homepage screenshot
-        "assets/readynest-2.png"  // ReadyNest Facebook page screenshot
+        "assets/readynest-card.png", // Replace Card Preview Image
+        "assets/readynest-fb.png", // Replace ReadyNest Facebook image
+        "assets/readynest-web.png", // Replace ReadyNest website image
+        "assets/readynest-kpi-1.png", // Replace KPI tracking image 1
+        "assets/readynest-kpi-2.png", // Replace KPI tracking image 2
+        "assets/readynest-kpi-3.png"  // Replace KPI tracking image 3
       ],
 
       // SỬA: link minh chứng
-      proofLinkHref: "https://www.readynest.info/"
+      proofLinkHref: "https://www.readynest.info/",
+      facebookLinkHref: "https://www.facebook.com/profile.php?id=61589003180887"
     },
     {
       id: "mystic-sip",
@@ -164,47 +182,43 @@ window.PORTFOLIO_DATA = {
       number: "02",
 
       // SỬA: tên dự án
-      title: "Style by PNJ Product Launch",
+      title: "STYLE BY PNJ:\nMystic Sip Campaign",
 
       // SỬA: vai trò chi tiết
       role: "Project Member",
       
       // SỬA: khóa học / trường
-      course: "IMC Project | UEH",
+      course: "IMC Campaign Project | UEH",
       
       // SỬA: thời gian
-      time: "09/2025 – 12/2025",
+      time: "Sep – Dec 2025",
 
       // SỬA: thời gian / loại dự án trong modal
-      category: "IMC Project | UEH • 09/2025 – 12/2025",
+      category: "IMC Campaign Project | UEH • Sep – Dec 2025",
 
       // SỬA: mô tả bối cảnh dự án
-      context: "Mystic Sip is a product launch campaign concept developed for Style by PNJ as part of an IMC project at UEH.",
+      context: "Mystic Sip is an Integrated Marketing Communication (IMC) campaign concept developed for Style by PNJ as part of an academic IMC project at UEH.",
 
       // SỬA: nhiệm vụ đã làm
-      whatIDid: "Developed a new product launch concept for Style by PNJ. Built an integrated marketing communication campaign including consumer insight, brand positioning, communication strategy, and launch planning. Executed campaign deliverables including TVC concept, key visual, poster design, and social media communication materials. Presented the project with strategic feedback from PNJ’s Brand Manager, connecting academic planning with real business expectations.",
+      whatIDid: "Project Member responsible for consumer insight research, target audience segmentation, customer journey mapping, campaign concept development, POSM planning, and retail activation planning.",
 
       // SỬA: skill tags
-      skills: [
-        "IMC",
-        "Product Launch",
-        "Brand Positioning",
-        "Communication Strategy",
-        "Key Visual",
-        "Social Media Materials"
-      ],
+      skills: ["Consumer Insight", "IMC Planning", "Customer Journey", "Retail Activation"],
 
       // SỬA: số liệu / kết quả (để trống vì đây là dự án concept/học thuật không có số liệu vận hành thực tế)
       metrics: [],
 
-      // SỬA: đường dẫn ảnh minh chứng (Dùng SVG tạm thời hiển thị chữ 'Add Mystic Sip image'. Khi nào có ảnh, hãy thay thế bằng đường dẫn ảnh thật của bạn)
+      // SỬA: đường dẫn ảnh minh chứng
       proofImages: [
-        "assets/mystic-sip-1.png", // Mystic Sip TVC / Key Visual screenshot
-        "assets/mystic-sip-2.png"  // Mystic Sip poster / social media materials
+        "assets/pnj-card.png",      // Replace Card Preview Image
+        "assets/pnj-modal-1.png",  // Replace Viral clip
+        "assets/pnj-modal-2.png",  // Replace Big Idea
+        "assets/pnj-modal-3.png",  // Replace POSM
+        "assets/pnj-modal-4.png"   // Replace Source of Growth
       ],
 
-      // SỬA: link minh chứng (Thay dấu '#' bằng liên kết thật của bạn)
-      proofLinkHref: "#"
+      // SỬA: link minh chứng
+      proofLinkHref: "https://drive.google.com/file/d/1eNJnqhRcVSbA_6sul26TlNZe21jv0juO/view"
     },
     {
       id: "lifebuoy-herbal-guard",
@@ -235,23 +249,21 @@ window.PORTFOLIO_DATA = {
 
       // SỬA: skill tags
       skills: [
-        "Brand Management",
-        "Product Extension",
+        "Brand Equity",
+        "Product Innovation",
         "Consumer Insight",
         "Market Analysis"
       ],
 
       // SỬA: số liệu / kết quả
-      metrics: [
-        { value: "32%", label: "Body care revenue share", theme: "lime" },
-        { value: "57.7%", label: "Shower gel & body wash share", theme: "purple" },
-        { value: "$245M", label: "Natural personal care market", theme: "white" }
-      ],
+      metrics: [],
 
       // SỬA: đường dẫn ảnh minh chứng
       proofImages: [
-        "assets/lifebuoy-1.png", // SỬA: Ảnh chi tiết bao bì
-        "assets/lifebuoy-2.png"  // SỬA: Ảnh đề xuất đổi mới
+        "assets/lifebuoy-card.png",
+        "assets/lifebuoy-modal-1.png",
+        "assets/lifebuoy-modal-2.png",
+        "assets/lifebuoy-modal-3.png"
       ],
 
       // SỬA: link minh chứng

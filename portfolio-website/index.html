@@ -116,34 +116,62 @@
       <div class="container">
         <span class="arrow-deco-top">↳</span>
         <div class="about-grid">
-          <!-- Left: Portrait Image & Sticker -->
+          <!-- Left: Portrait Image Cluster & Sticker -->
           <div class="about-visual">
-            <div class="avatar-circle-wrapper">
-              <img src="assets/cropped/avatar.png" alt="Phan Huỳnh Hải Ngọc" class="avatar-img">
-              <div class="sticker-call-me">YOU CAN CALL ME MAY</div>
+            <div class="about-image-cluster">
+              <!-- Small photo sticker 1: Behind top-left/top-right -->
+              <!-- SỬA: thay ảnh phụ About 1 tại đây -->
+              <div class="about-sub-photo sub-photo-1">
+                <div class="img-frame">
+                  <img src="assets/about-photo-1.jpg" alt="Ảnh phụ 1" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'110\' height=\\'95\\'%3E%3Crect width=\'100%25\' height=\'100%25\' fill=\'%23e5e7eb\'/%3E%3C/svg%3E';">
+                </div>
+              </div>
+
+              <!-- Main circular portrait in the center -->
+              <div class="avatar-circle-wrapper" style="z-index: 5; width: clamp(210px, 24vw, 280px); height: clamp(210px, 24vw, 280px);">
+                <img src="assets/cropped/avatar.png" alt="Phan Huỳnh Hải Ngọc" class="avatar-img">
+              </div>
+
+              <!-- Small photo sticker 2: Near bottom-right -->
+              <!-- SỬA: thay ảnh phụ About 2 tại đây -->
+              <div class="about-sub-photo sub-photo-2">
+                <div class="img-frame">
+                  <img src="assets/about-photo-2.jpg" alt="Ảnh phụ 2" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'110\' height=\\'95\\'%3E%3Crect width=\'100%25\' height=\'100%25\' fill=\'%23e5e7eb\'/%3E%3C/svg%3E';">
+                </div>
+              </div>
             </div>
           </div>
 
           <!-- Right: Text Content & Tags -->
           <div class="about-content">
             <h2 class="section-title text-shadow-purple">HELLO</h2>
-            <div class="about-bio">
-              <p>
-                I'm <strong>Phan Huynh Hai Ngoc</strong>, a <strong>marketing student</strong> who enjoys <strong>solving business challenges</strong> through <strong>consumer-centric thinking</strong> and <strong>strategic marketing</strong>.
-              </p>
-              <p>
-                Through academic projects, marketing competitions, and student organizations, I've developed <strong>hands-on experience</strong> in <strong>campaign planning</strong>, <strong>digital marketing</strong>, content creation, and community engagement. These opportunities have shown me that effective marketing is built on a balance of <strong>consumer insight</strong>, <strong>creativity</strong>, and thoughtful execution while strengthening my ability to collaborate and solve problems.
-              </p>
-              <p>
-                I aspire to build a career in <strong>Brand Marketing</strong> because I'm fascinated by how strong brands shape everyday decisions and create emotional connections with consumers. My goal is to grow into a marketer who combines <strong>strategic thinking</strong>, <strong>creativity</strong>, and <strong>consumer understanding</strong> to build <strong>brands with lasting impact</strong>.
-              </p>
+            
+            <p class="about-intro-line" style="font-family: var(--font-heading); font-size: 1.15rem; font-weight: 800; color: var(--color-purple); margin-top: -0.25rem; margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: -0.5px;">
+              Curious about consumers. Passionate about brands.
+            </p>
+
+            <div class="about-bio" style="margin-bottom: 1.5rem;">
+              <div class="about-block" style="margin-bottom: 1.25rem;">
+                <strong style="display: block; font-family: var(--font-heading); font-size: 0.95rem; text-transform: uppercase; color: var(--color-black); margin-bottom: 0.25rem;">WHO I AM</strong>
+                <span style="font-size: 0.95rem; line-height: 1.4; color: #374151;">A marketing student who enjoys turning consumer understanding into meaningful brand strategies.</span>
+              </div>
+              
+              <div class="about-block" style="margin-bottom: 1.25rem;">
+                <strong style="display: block; font-family: var(--font-heading); font-size: 0.95rem; text-transform: uppercase; color: var(--color-black); margin-bottom: 0.25rem;">HOW I THINK</strong>
+                <span style="font-size: 0.95rem; line-height: 1.4; color: #374151;">I start from research, look for consumer tensions, and translate insights into campaign directions that support business goals.</span>
+              </div>
+              
+              <div class="about-block" style="margin-bottom: 0;">
+                <strong style="display: block; font-family: var(--font-heading); font-size: 0.95rem; text-transform: uppercase; color: var(--color-black); margin-bottom: 0.25rem;">WHERE I’M HEADING</strong>
+                <span style="font-size: 0.95rem; line-height: 1.4; color: #374151;">I aspire to become a marketer who combines strategic thinking, creativity, and consumer understanding to build brands that create meaningful impact.</span>
+              </div>
             </div>
 
-            <div class="strategy-pills-grid">
-              <div class="about-trait-box pill-purple">CONSUMER INSIGHTS</div>
-              <div class="about-trait-box pill-green">BRAND STRATEGY</div>
-              <div class="about-trait-box pill-white">CAMPAIGN THINKING</div>
-              <div class="about-trait-box pill-purple">STRATEGIC MINDSET</div>
+            <div class="strategy-pills-grid" style="margin-top: 0.5rem;">
+              <div class="about-trait-box pill-purple">CONSUMER RESEARCH</div>
+              <div class="about-trait-box pill-green">INSIGHT MINING</div>
+              <div class="about-trait-box pill-white">STRATEGIC PLANNING</div>
+              <div class="about-trait-box pill-purple">BRAND BUILDING</div>
             </div>
           </div>
         </div>
@@ -633,14 +661,5 @@
   <!-- Javascript Files -->
   <script src="portfolio-data.js"></script>
   <script src="script.js"></script>
-  <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8M7JN00ZXH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-8M7JN00ZXH');
-</script>
 </body>
 </html>
