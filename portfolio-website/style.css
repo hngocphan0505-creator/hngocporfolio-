@@ -1140,6 +1140,188 @@ section {
 }
 
 /* ==========================================================================
+   SECTION 3.5: CONTENT & PERSONAL BRAND SECTION STYLES
+   ========================================================================== */
+
+.content-brand-section {
+  background-color: var(--color-white);
+  border-bottom: var(--border-thick);
+  padding: var(--section-padding) 0;
+}
+
+.content-brand-header {
+  text-align: center;
+  margin-bottom: 36px; /* Spacing from subtitle to first card */
+}
+
+.content-brand-header .section-title {
+  margin-bottom: 12px !important; /* Spacing from title to subtitle */
+}
+
+.content-brand-subtitle {
+  font-family: var(--font-body);
+  font-size: 19px;
+  font-weight: 500;
+  color: #444444;
+  line-height: 1.5;
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Each showcase block: two columns */
+.content-brand-block {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+  margin-bottom: 5rem;
+  padding: 2.5rem;
+  border: var(--border-thick);
+  box-shadow: var(--shadow-hard);
+  background-color: var(--color-white);
+}
+
+/* Block 2: reverse columns */
+.content-brand-block--reverse {
+  flex-direction: row-reverse;
+}
+
+/* ── Image side ── */
+.content-brand-img-wrap {
+  flex: 0 0 42%;
+  max-width: 42%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-brand-img-frame {
+  border: var(--border-thick);
+  box-shadow: var(--shadow-hard);
+  background-color: #ffffff;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  /* Let it grow to natural image height */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.content-brand-screenshot {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  object-position: top center;
+}
+
+/* ── Info side ── */
+.content-brand-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* Platform badge */
+.content-platform-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0.3rem 0.9rem;
+  border: var(--border-thick);
+  width: fit-content;
+}
+
+.badge-instagram {
+  background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: #fff;
+  border-color: #000;
+}
+
+.badge-threads {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+/* Title */
+.content-brand-title {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.1;
+  color: var(--color-black);
+  margin: 0;
+}
+
+/* Summary */
+.content-brand-summary {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #374151;
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* Metrics row — reuses existing pill card classes */
+.content-brand-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+}
+
+/* Button — reuse existing btn-project-proof but as anchor */
+a.content-brand-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+  text-decoration: none;
+}
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
+  .content-brand-block,
+  .content-brand-block--reverse {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.75rem;
+  }
+
+  .content-brand-img-wrap {
+    flex: unset;
+    max-width: 380px;
+    width: 100%;
+    align-self: center;
+  }
+
+  .content-brand-metrics {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .content-brand-title {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content-brand-metrics {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .content-brand-img-wrap {
+    max-width: 100%;
+  }
+}
+
+/* ==========================================================================
    SECTION 4: EXPERIENCE SECTION STYLES
    ========================================================================== */
 .experience-section {
